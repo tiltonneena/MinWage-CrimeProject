@@ -2,7 +2,7 @@
 
 
  ## Overview
-<img align= "right" src= "https://github.com/tiltonneena/InstacartProject-Python/blob/main/produce.jpg" width="350" height="250">
+<img align= "right" src= "https://github.com/tiltonneena/MinWage-CrimeProject/blob/main/prisonpic.jpg" width="350" height="250">
  Wealth inequality is often assumed to be tied to higher crime rates by many progressive media commentators. Such assumptions drove my curiosity to perfomr this study, which looks into the direct connection between state minimum wage and state incarceration rates, along with the direct connection between state minimum wage and state rate of violent crimes. 
 
  ## Objective
