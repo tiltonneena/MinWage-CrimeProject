@@ -109,6 +109,10 @@ This analysis was conducted by merging two separate open-source data found on Ka
 - Although wealth inequality may contribute to crimes rates, the linear regression testing conducted in this study found that the direct relationship between state minimum and incarceration rate, along with the relationship between state minimum wage and violent crime rate, were close to non-existent.
 -	However, the cluster analysis did show that states with excessively low minimum wage ($0.60 per hour) were more likely to be associated with higher incarceration rate and violent crime rate. 
 
+#### Next Step
+This study did not take into account cost of living in each state. In the next study, I would like to investigate how the state minimum wage, within the context of cost of living, impacts violent crime rates and incarceration rates. 
+
+
 ### Deliverables
 ### [Final Tableau Dashboard](https://public.tableau.com/views/MinimumWageIncarcerationStudy/FinalStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
