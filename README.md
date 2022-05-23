@@ -1,4 +1,10 @@
+<p align="right">
+  <a href="https://tiltonneena.github.io/portfolio/">Back to Portfolio Homepage</a>
+</p>
+
 # Minimum Wage & Crime Study
+### By Neena Tilton
+
 <p align="center">
   <img width="500" height="332" src="Images/prison.jpg"/>
 </p>
@@ -123,3 +129,7 @@ This study did not take into account cost of living in each state. In the next s
 
 #### References
 *Anser, M.K., Yousaf, Z., Nassani, A.A. et al. Dynamic linkages between poverty, inequality, crime, and social expenditures in a panel of 16 countries: two-step GMM estimates. Economic Structures 9, 43 (2020). https://doi.org/10.1186/s40008-020-00220-6
+
+<p align="right">
+  <a href="https://tiltonneena.github.io/portfolio/">Back to Portfolio Homepage</a>
+</p>
