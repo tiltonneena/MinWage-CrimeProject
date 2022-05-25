@@ -10,7 +10,7 @@
 </p>
 
 ### Background
-Wealth inequality is often referred to as a contributor to increased crime rates, and some studies have even shown this assumption to be supported (see reference below). Such interpretations drove my curiosity for this personal project which looks into the direct connection between state minimum wage and state crime rate. The primary goal of this study was to uncover if state minimum wage had any direct impact on the incarceration rate and violent crime rate. Linear relationship was tested by way of performing linear regression and data grouping was tested by way of performing k-means clustering. 
+Wealth inequality is often referred to as a contributor to increased crime rates, and some studies have even shown this assumption to be supported (see reference below). Such interpretations drove my curiosity for this personal project, which looks into the direct connection between state minimum wage and state crime rate. The primary goal of this study is to determine if state minimum wage had any direct impact on the incarceration rate and violent crime rate. The linear relationship was tested by performing linear regression; data grouping was tested by performing k-means clustering. 
 
 ### Tools & Context
 - **Python:** the bulk of this analysis was performed on this programming language, including geospatial analysis, linear regression, k-means clustering, Dickey-Fuller testing, autocorrelation, plotting, and differencing non-stationary time-series data. Libraries used: pandas, numpy, scipy, matplotlib, seaborn, sklearn, folium.
@@ -19,12 +19,12 @@ Wealth inequality is often referred to as a contributor to increased crime rates
 
 
 ### Data Source
-This analysis was conducted by merging two separate open-source data found on Kaggle. 
-- Historical minimum wage per year for each state from 1968 to 2020, found [here](https://www.kaggle.com/datasets/lislejoem/us-minimum-wage-by-state-from-1968-to-2017?resource=download). This dataset was compiled by the Kaggle contributor with public information found on the U.S. Department of Labor website.
-- Crimes and incarceration by state from 2001 to 2016, found [here](https://www.kaggle.com/datasets/christophercorrea/prisoners-and-crime-in-united-states?select=ucr_by_state.csv). This dataset was complied by the Kaggle contributor using data provided by the Bureau of Justice Statistics. 
+This analysis was conducted by merging two separate open-source data sets found on Kaggle. 
+- Historical minimum wage per year for each state from 1968 to 2020, found [here](https://www.kaggle.com/datasets/lislejoem/us-minimum-wage-by-state-from-1968-to-2017?resource=download). This data set was compiled by the Kaggle contributor with public information found on the U.S. Department of Labor website.
+- Crimes and incarceration by state from 2001 to 2016, found [here](https://www.kaggle.com/datasets/christophercorrea/prisoners-and-crime-in-united-states?select=ucr_by_state.csv). This data set was complied by the Kaggle contributor using data provided by the Bureau of Justice Statistics. 
 
 ### Methodology
-1. The two datasets were found and downloaded from Kaggle. Then, they were cleaned and wrangled in Python before the two were merged into one large dataframe. 
+1. The two data sets were found and downloaded from Kaggle. Then, they were cleaned and wrangled in Python before the two were merged into one large data frame. 
 
     <p align="center">
       <img width="564" height="61" src="Images/pysc_nan.jpg"/>
@@ -44,17 +44,17 @@ This analysis was conducted by merging two separate open-source data found on Ka
       <img width="511" height="36" src="Images/pysc_subsetYears.jpg"/>
     </p>
     <p align="center">
-      <em>Python code used to create a subset of the Min Wage<br>dataset only including years 2001 to 2016.</em>
+      <em>Python code used to create a subset of the Min Wage<br>data set only including years 2001 to 2016.</em>
     </p>
     
     <p align="center">
       <img width="564" height="27" src="Images/pysc_merging.jpg"/>
     </p>
     <p align="center">
-      <em>Once both datasets were cleaned and wrangled,<br>the two were merged into one dataframe.</em>
+      <em>Once both data sets were cleaned and wrangled,<br>the two were merged into one data frame.</em>
     </p>
 
-2.	After merging the datasets into one main dataframe, new variables were derived and exploratory analysis was performed to locate interesting relationships present in the data. 
+2.	After merging the data sets into one main data frame, new variables were derived and exploratory analysis was performed to locate interesting relationships present in the data. 
 
     <p align="center">
       <img width="348" height="259" src="Images/pyviz_hist.jpg"/>
@@ -80,7 +80,7 @@ This analysis was conducted by merging two separate open-source data found on Ka
       <img width="360" height="218" src="Images/pyviz_map.jpg"/>
     </p>
     <p align="center">
-      <em>Majority of states with higher incarceration rates were<br>concentrated in the South and the South-West.</em>
+      <em>The majority of states with higher incarceration rates were<br>concentrated in the South and the South-West.</em>
     </p> 
 
 4.	To test the existence of linear relationships between variables, two hypotheses were formulated, and linear regression analysis was performed to test both hypotheses. The linear regression tests were run by using a Scikit-learn library function. 
@@ -98,7 +98,7 @@ This analysis was conducted by merging two separate open-source data found on Ka
       <em>Hypothesis 2: As state min-wage increases,<br>state violent crime rates decreases.</em>
     </p> 
 
-5.	Both regressions showed to have negative relationships, however, the statistical significance was far too low to reject the null hypotheses. Since the linear regression testing was not sufficient enough to explain the data, a k-means cluster analysis was conducted to uncover if any other patterns existed within the data. 
+5.	Both regressions showed to have negative relationships, however the statistical significance was far too low to reject the null hypotheses. Since the linear regression testing was not sufficient enough to explain the data, a k-means cluster analysis was conducted to uncover if any other patterns existed within the data. 
 
     <p align="center">
       <img width="360" height="227" src="Images/pyviz_clustering.jpg"/>
@@ -113,10 +113,10 @@ This analysis was conducted by merging two separate open-source data found on Ka
 
 ### Key Findings
 - Although wealth inequality may contribute to crimes rates, the linear regression testing conducted in this study found that the direct relationship between state minimum and incarceration rate, along with the relationship between state minimum wage and violent crime rate, were close to non-existent.
--	However, the cluster analysis did show that states with excessively low minimum wage ($0.60 per hour) were more likely to be associated with higher incarceration rate and violent crime rate. 
+-	However, the cluster analysis did show that states with excessively low minimum wages ($0.60 per hour) were more likely to be associated with higher incarceration rates and violent crime rates. 
 
 #### Next Step
-This study did not take into account cost of living in each state. In the next study, I would like to investigate how the state minimum wage, within the context of cost of living, impacts violent crime rates and incarceration rates. 
+This study did not take into account cost of living in each state. In the next study, I would like to investigate how state minimum wage, within the context of cost of living, impacts violent crime rate and incarceration rate. 
 
 
 ### Deliverables
